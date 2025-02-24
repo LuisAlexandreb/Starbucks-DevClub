@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <title>Starbucks</title>
+</head>
+
+<body>
+    <div class="circulo"></div>
+
+
+    <div class="content-main">
+        <img src="./assets/logo.png" class="content-main-logo" alt="">
+    </div>  
+
+    <div class="conteudo">
+
+        <div class="texto">
+            <h2 class="texto-titulo">It's not just Coffe It's <span class="texto-titulo-nome">Starbucks</span></h2>
+            <p class="texto-paragrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, minima velit! Libero explicabo expedita
+                error
+                velit tenetur dolorem saepe facere, molestias magnam corrupti impedit sint eveniet vero delectus debitis
+                fuga?</p>
+            <button>Deixe o seu like</button>
+        </div>
+        <div class="conteudo-imagem">
+            <img src="./assets/img1.png" class="conteudo-imagem-copo" alt="">
+        </div>
+        
+    </div>
+
+    <div class="menu-imagem">
+        <img 
+        src="./assets/thumb1.png"
+        class="botao-menu" 
+        onclick="trocaImagem('./assets/img1.png'); trocaCorCirculo('#017143')"
+        >
+        
+
+        <img 
+        src="./assets/thumb2.png" 
+        class="botao-menu"
+        onclick="trocaImagem('./assets/img2.png'); trocaCorCirculo('#eb7495')"
+        >
+
+        <img 
+        src="./assets/thumb3.png"
+        class="botao-menu" 
+        onclick="trocaImagem('./assets/img3.png'); trocaCorCirculo('#d752b1')"
+        >
+
+    </div>
+</body>
+<script src="./scripts.js"></script>
+
+</html>
